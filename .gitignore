@@ -23,6 +23,7 @@ frontend/web/android/.gradle/
 frontend/web/android/local.properties
 frontend/web/android/captures/
 frontend/package/mes-frontend.exe
+frontend/mes-frontend.exe
 
 # IDE
 .vscode/
@@ -49,16 +50,18 @@ mes-project_filelist.txt
 *.bmp
 screenshots/
 
-# 无关项目目录
+# 无关项目
 docs/crm-analysis/
-steedos-platform-ref/
-steedos-platform.tar
 steedos-packages/custom-objects/
 steedos-packages/wms/
 
-# 测试文件
+# 测试临时文件
 snake.html
 snake_debug.html
+
+# 嵌入式 git 和大型压缩包
+steedos-platform-ref/
+steedos-platform.tar
 
 # 系统
 Thumbs.db
