@@ -1,0 +1,40 @@
+name: mes_production_reports_work_order_update
+listenTo: mes_production_reports
+when:
+  - afterInsert
+isEnabled: true
+type: code
+locked: false
+handler: |-
+  const { doc } = ctx.params;
+  const { _ } = npm;
+
+  if (!doc.work_order) {
+    return;
+  }
+
+  // Get current work order
+  const workOrder = await objects.mes_work_orders.findOne(doc.work_order);
+  if (!workOrder) {
+    return;
+  }
+
+  // Calculate new totals
+  const newCompletedQty = (workOrder.completed_qty || 0) + (doc.good_qty || 0);
+  const newDefectQty = (workOrder.defect_qty || 0) + (doc.defect_qty || 0);
+
+  // Determine new status
+  let newStatus = workOrder.status;
+  if (newCompletedQty >= (workOrder.planned_qty || 0)) {
+    newStatus = 'completed';
+  } else if (workOrder.status === 'released') {
+    newStatus = 'in_progress';
+  }
+
+  // Update work order
+  await objects.mes_work_orders.directUpdate(doc.work_order, {
+    completed_qty: newCompletedQty,
+    defect_qty: newDefectQty,
+    status: newStatus,
+    actual_start_date: workOrder.actual_start_date || (newStatus === 'in_progress' ? new Date() : undefined)
+  });

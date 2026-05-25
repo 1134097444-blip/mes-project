@@ -1,0 +1,28 @@
+name: all
+label: 所有设备
+is_enable: true
+shared: true
+shared_to: space
+filter_scope: space
+columns:
+  - field: equipment_code
+  - field: name
+  - field: model
+  - field: status
+  - field: location
+  - field: purchase_date
+  - field: last_maintenance_date
+  - field: responsible
+sort:
+  - field_name: name
+    order: asc
+searchable_fields:
+  - field: name
+  - field: equipment_code
+  - field: model
+  - field: location
+mobile_columns:
+  - field: equipment_code
+  - field: name
+  - field: status
+  - field: location

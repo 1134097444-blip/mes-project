@@ -1,0 +1,114 @@
+name: 制造执行系统
+code: mes
+description: 覆盖生产排程、工单执行、质量追溯、设备维保、物料流转全链路
+icon_slds: service_contract
+color: blue
+is_creator: true
+showSidebar: true
+mobile: true
+visible: true
+sort: 100
+
+tabs:
+  - page_mes_home
+  - page_mes_process_flow
+  - page_mes_workshop_board
+  - page_mes_quality_board
+  - page_mes_equipment_board
+  - object_mes_tasks
+  - object_mes_work_orders
+  - object_mes_production_reports
+  - object_mes_routings
+  - object_mes_operations
+  - object_mes_work_centers
+  - object_mes_workshops
+  - object_mes_bom_items
+  - object_mes_inspection_records
+  - object_mes_defects
+  - object_mes_nonconformance
+  - object_mes_equipment
+  - object_mes_maintenance_records
+  - object_mes_equipment_faults
+  - object_mes_materials
+  - object_mes_inventory
+
+tab_groups:
+  - group_name: 工作台
+    default_open: true
+  - group_name: 生产执行
+    default_open: true
+  - group_name: 工艺数据
+    default_open: true
+  - group_name: 车间管理
+    default_open: true
+  - group_name: 质量管控
+    default_open: true
+  - group_name: 设备管理
+    default_open: true
+  - group_name: 物料管理
+    default_open: true
+
+tab_items:
+  page_mes_home:
+    group: 工作台
+    index: 1
+  page_mes_process_flow:
+    group: 工作台
+    index: 2
+  page_mes_workshop_board:
+    group: 工作台
+    index: 3
+  page_mes_quality_board:
+    group: 工作台
+    index: 4
+  page_mes_equipment_board:
+    group: 工作台
+    index: 5
+  object_mes_tasks:
+    group: 生产执行
+    index: 1
+  object_mes_work_orders:
+    group: 生产执行
+    index: 2
+  object_mes_production_reports:
+    group: 生产执行
+    index: 3
+  object_mes_routings:
+    group: 工艺数据
+    index: 1
+  object_mes_operations:
+    group: 工艺数据
+    index: 2
+  object_mes_work_centers:
+    group: 工艺数据
+    index: 3
+  object_mes_workshops:
+    group: 车间管理
+    index: 1
+  object_mes_bom_items:
+    group: 工艺数据
+    index: 4
+  object_mes_inspection_records:
+    group: 质量管控
+    index: 1
+  object_mes_defects:
+    group: 质量管控
+    index: 2
+  object_mes_nonconformance:
+    group: 质量管控
+    index: 3
+  object_mes_equipment:
+    group: 设备管理
+    index: 1
+  object_mes_maintenance_records:
+    group: 设备管理
+    index: 2
+  object_mes_equipment_faults:
+    group: 设备管理
+    index: 3
+  object_mes_materials:
+    group: 物料管理
+    index: 1
+  object_mes_inventory:
+    group: 物料管理
+    index: 2

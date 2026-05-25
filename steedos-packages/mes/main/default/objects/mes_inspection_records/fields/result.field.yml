@@ -1,0 +1,13 @@
+name: result
+type: select
+label: 检验结论
+required: true
+sortable: true
+filterable: true
+options:
+  - label: 合格
+    value: pass
+  - label: 不合格
+    value: fail
+  - label: 让步接收
+    value: concession

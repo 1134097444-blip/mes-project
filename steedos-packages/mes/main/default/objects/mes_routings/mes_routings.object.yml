@@ -1,0 +1,11 @@
+name: mes_routings
+label: 工艺路线
+icon: kanban
+description: 产品加工的工序路径定义
+enable_search: true
+enable_chatter: true
+enable_audit: true
+enable_files: true
+enable_api: true
+enable_trash: true
+enable_enhanced_lookup: true

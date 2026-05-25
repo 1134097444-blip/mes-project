@@ -1,0 +1,8 @@
+name: object_mes_inspection_records
+type: object
+object: mes_inspection_records
+label: 检验记录
+icon: scan
+desktop: true
+mobile: true
+permissions: []

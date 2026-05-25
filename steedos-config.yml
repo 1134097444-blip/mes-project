@@ -1,0 +1,11 @@
+datasources:
+  default:
+    connection:
+      url: ${MONGO_URL}
+    objectFiles:
+      - "./steedos-packages/mes/main/default/**/*.object.yml"
+
+tenant:
+  enable_create_tenant: true
+  enable_register: true
+  enable_password_login: true

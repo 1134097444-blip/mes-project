@@ -1,0 +1,16 @@
+name: mes_production_reports.mes_operator
+permission_set_id: mes_operator
+allowCreate: true
+allowRead: true
+allowEdit: true
+allowDelete: true
+allowExport: false
+viewAllRecords: false
+modifyAllRecords: false
+allowReadFiles: true
+allowCreateFiles: true
+allowEditFiles: true
+allowDeleteFiles: true
+viewAllFiles: false
+modifyAllFiles: false
+field_permissions: []

@@ -1,0 +1,9 @@
+name: mes_work_centers.mes_equipment_tech
+permission_set_id: mes_equipment_tech
+allowCreate: false
+allowDelete: false
+allowEdit: false
+allowRead: true
+viewAllRecords: true
+modifyAllRecords: false
+field_permissions: []

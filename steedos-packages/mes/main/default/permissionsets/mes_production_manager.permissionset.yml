@@ -1,0 +1,4 @@
+name: mes_production_manager
+label: 生产主管
+type: permission_set
+locked: false

@@ -1,0 +1,4 @@
+name: location
+type: text
+label: 库位
+filterable: true

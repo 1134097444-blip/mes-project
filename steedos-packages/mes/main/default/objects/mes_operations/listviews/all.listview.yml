@@ -1,0 +1,27 @@
+name: all
+label: 所有工序
+is_enable: true
+shared: true
+shared_to: space
+filter_scope: space
+columns:
+  - field: operation_code
+  - field: name
+  - field: routing
+  - field: sequence_no
+  - field: work_center
+  - field: standard_time
+  - field: owner
+  - field: created
+sort:
+  - field_name: sequence_no
+    order: asc
+searchable_fields:
+  - field: name
+  - field: operation_code
+  - field: work_center
+mobile_columns:
+  - field: operation_code
+  - field: name
+  - field: sequence_no
+  - field: work_center

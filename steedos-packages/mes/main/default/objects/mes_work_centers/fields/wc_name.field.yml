@@ -1,0 +1,5 @@
+name: wc_name
+label: 工作中心名称
+type: text
+filterable: true
+sortable: true

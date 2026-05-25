@@ -1,0 +1,18 @@
+name: status
+type: select
+label: 状态
+required: true
+sortable: true
+filterable: true
+options:
+  - label: 待下达
+    value: pending
+  - label: 已下达
+    value: released
+  - label: 执行中
+    value: in_progress
+  - label: 已完成
+    value: completed
+  - label: 已取消
+    value: cancelled
+defaultValue: pending

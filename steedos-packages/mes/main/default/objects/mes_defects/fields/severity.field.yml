@@ -1,0 +1,15 @@
+name: severity
+type: select
+label: 严重程度
+required: true
+sortable: true
+filterable: true
+options:
+  - label: 轻微
+    value: minor
+  - label: 一般
+    value: major
+  - label: 严重
+    value: critical
+  - label: 致命
+    value: fatal

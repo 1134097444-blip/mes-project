@@ -1,0 +1,17 @@
+name: running_list
+label: 正常运行中
+is_enable: true
+shared: true
+filter_scope: space
+columns:
+  - field: equipment_code
+  - field: name
+  - field: model
+  - field: location
+  - field: last_maintenance_date
+  - field: responsible
+filters:
+  - ["status", "=", "running"]
+sort:
+  - field_name: name
+    order: asc

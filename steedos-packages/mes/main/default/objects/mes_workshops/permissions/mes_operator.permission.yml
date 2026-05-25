@@ -1,0 +1,9 @@
+name: mes_workshops.mes_operator
+permission_set_id: mes_operator
+allowCreate: false
+allowDelete: false
+allowEdit: false
+allowRead: true
+viewAllRecords: true
+modifyAllRecords: false
+field_permissions: []

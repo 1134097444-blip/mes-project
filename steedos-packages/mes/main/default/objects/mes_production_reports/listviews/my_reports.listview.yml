@@ -1,0 +1,16 @@
+name: my_reports
+label: 我的报工
+is_enable: true
+shared: true
+filter_scope: mine
+columns:
+  - field: work_order
+  - field: operation
+  - field: good_qty
+  - field: defect_qty
+  - field: labor_hours
+  - field: report_date
+  - field: equipment
+sort:
+  - field_name: report_date
+    order: desc

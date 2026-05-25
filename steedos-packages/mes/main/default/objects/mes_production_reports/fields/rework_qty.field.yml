@@ -1,0 +1,4 @@
+name: rework_qty
+label: 返工数量
+type: number
+min: 0

@@ -1,0 +1,5 @@
+name: mes_equipment_board
+label: 设备状态看板
+type: app
+render_engine: amis
+is_active: true

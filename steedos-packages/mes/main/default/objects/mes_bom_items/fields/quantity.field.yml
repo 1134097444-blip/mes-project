@@ -1,0 +1,5 @@
+name: quantity
+type: number
+label: 用量
+required: true
+min: 0

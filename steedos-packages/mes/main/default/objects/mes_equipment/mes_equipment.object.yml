@@ -1,0 +1,11 @@
+name: mes_equipment
+label: 设备台账
+icon: settings
+description: 车间设备主数据，记录设备的基本信息、状态和维护周期
+enable_search: true
+enable_chatter: true
+enable_audit: true
+enable_files: true
+enable_api: true
+enable_trash: true
+enable_enhanced_lookup: true

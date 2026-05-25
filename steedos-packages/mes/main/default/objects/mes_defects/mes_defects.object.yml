@@ -1,0 +1,11 @@
+name: mes_defects
+label: 缺陷登记
+icon: cross
+description: 检验中发现的缺陷信息登记与分类管理
+enable_search: true
+enable_chatter: true
+enable_audit: true
+enable_files: true
+enable_api: true
+enable_trash: true
+enable_enhanced_lookup: true

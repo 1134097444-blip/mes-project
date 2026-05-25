@@ -1,0 +1,4 @@
+name: end_time
+type: datetime
+label: 完成时间
+sortable: true

@@ -1,0 +1,5 @@
+name: handler
+type: lookup
+label: 处理人
+reference_to: users
+filterable: true

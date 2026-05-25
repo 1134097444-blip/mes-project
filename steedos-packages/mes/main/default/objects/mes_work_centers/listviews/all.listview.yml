@@ -1,0 +1,10 @@
+name: all
+label: 全部
+columns:
+  - field: wc_code
+  - field: wc_name
+  - field: name
+filters: []
+sort:
+  - field_name: wc_code
+    order: asc

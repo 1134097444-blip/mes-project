@@ -1,0 +1,5 @@
+name: equipment
+type: lookup
+label: 生产设备
+reference_to: mes_equipment
+filterable: true

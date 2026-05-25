@@ -1,0 +1,4 @@
+name: mes_admin
+label: 系统管理员
+type: permission_set
+locked: false

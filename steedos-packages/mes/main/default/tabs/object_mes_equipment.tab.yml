@@ -1,0 +1,8 @@
+name: object_mes_equipment
+type: object
+object: mes_equipment
+label: 设备台账
+icon: settings
+desktop: true
+mobile: true
+permissions: []

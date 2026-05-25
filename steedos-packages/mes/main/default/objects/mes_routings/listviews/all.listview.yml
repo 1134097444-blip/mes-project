@@ -1,0 +1,22 @@
+name: all
+label: 所有工艺路线
+is_enable: true
+shared: true
+shared_to: space
+filter_scope: space
+columns:
+  - field: routing_number
+  - field: name
+  - field: product
+  - field: owner
+  - field: created
+sort:
+  - field_name: name
+    order: asc
+searchable_fields:
+  - field: name
+  - field: routing_number
+mobile_columns:
+  - field: routing_number
+  - field: name
+  - field: product

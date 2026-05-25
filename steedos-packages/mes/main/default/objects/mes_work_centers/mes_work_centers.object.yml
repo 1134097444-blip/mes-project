@@ -1,0 +1,11 @@
+name: mes_work_centers
+label: 工作中心
+icon: location
+description: 生产加工的工作中心定义，从用友 U8 Sfc 模块同步
+enable_search: true
+enable_chatter: true
+enable_audit: true
+enable_files: true
+enable_api: true
+enable_trash: true
+enable_enhanced_lookup: true

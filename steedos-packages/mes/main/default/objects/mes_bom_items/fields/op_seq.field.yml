@@ -1,0 +1,4 @@
+name: op_seq
+label: 工序号
+type: number
+scale: 0

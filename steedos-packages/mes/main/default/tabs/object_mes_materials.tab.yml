@@ -1,0 +1,8 @@
+name: object_mes_materials
+type: object
+object: mes_materials
+label: 物料主数据
+icon: product_item
+desktop: true
+mobile: true
+permissions: []

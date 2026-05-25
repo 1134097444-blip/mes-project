@@ -1,0 +1,8 @@
+name: page_mes_home
+type: page
+page: mes_home
+label: MES 首页
+icon: home
+desktop: true
+mobile: true
+permissions: []

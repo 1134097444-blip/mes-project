@@ -1,0 +1,15 @@
+name: severity
+type: select
+label: 紧急程度
+required: true
+sortable: true
+filterable: true
+options:
+  - label: 紧急
+    value: emergency
+  - label: 高
+    value: high
+  - label: 中
+    value: medium
+  - label: 低
+    value: low

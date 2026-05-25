@@ -1,0 +1,123 @@
+{
+  "type": "page",
+  "title": "设备状态看板",
+  "body": [
+    {
+      "type": "grid",
+      "columns": [
+        {
+          "lg": 3,
+          "md": 6,
+          "body": [
+            {
+              "type": "service",
+              "api": "/api/v6/data/mes_equipment?skip=0&top=0&filters=[%22status%22,%22=%22,%22running%22]",
+              "body": {
+                "type": "panel",
+                "className": "text-center",
+                "body": [
+                  { "type": "tpl", "tpl": "<div class=\"h3 text-muted\">正常运行</div>" },
+                  { "type": "tpl", "tpl": "<div class=\"h1 text-success\">${items.length | default: 0}</div>" }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "lg": 3,
+          "md": 6,
+          "body": [
+            {
+              "type": "service",
+              "api": "/api/v6/data/mes_equipment?skip=0&top=0&filters=[%22status%22,%22=%22,%22stopped%22]",
+              "body": {
+                "type": "panel",
+                "className": "text-center",
+                "body": [
+                  { "type": "tpl", "tpl": "<div class=\"h3 text-muted\">停机</div>" },
+                  { "type": "tpl", "tpl": "<div class=\"h1 text-danger\">${items.length | default: 0}</div>" }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "lg": 3,
+          "md": 6,
+          "body": [
+            {
+              "type": "service",
+              "api": "/api/v6/data/mes_equipment?skip=0&top=0&filters=[%22status%22,%22=%22,%22maintenance%22]",
+              "body": {
+                "type": "panel",
+                "className": "text-center",
+                "body": [
+                  { "type": "tpl", "tpl": "<div class=\"h3 text-muted\">维修中</div>" },
+                  { "type": "tpl", "tpl": "<div class=\"h1 text-warning\">${items.length | default: 0}</div>" }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "lg": 3,
+          "md": 6,
+          "body": [
+            {
+              "type": "service",
+              "api": "/api/v6/data/mes_equipment_faults?skip=0&top=0&filters=[%22status%22,%22notin%22,[%22resolved%22]]",
+              "body": {
+                "type": "panel",
+                "className": "text-center",
+                "body": [
+                  { "type": "tpl", "tpl": "<div class=\"h3 text-muted\">未解决故障</div>" },
+                  { "type": "tpl", "tpl": "<div class=\"h1 text-danger\">${items.length | default: 0}</div>" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "grid",
+      "columns": [
+        {
+          "lg": 6,
+          "body": [
+            {
+              "type": "panel",
+              "title": "维保到期提醒",
+              "body": {
+                "type": "steedos-object-listview",
+                "objectApiName": "mes_maintenance_records",
+                "listName": "planned_maintenance",
+                "showFilterToolbar": false,
+                "showExportExcel": false
+              }
+            }
+          ]
+        },
+        {
+          "lg": 6,
+          "body": [
+            {
+              "type": "panel",
+              "title": "未解决故障",
+              "body": {
+                "type": "steedos-object-listview",
+                "objectApiName": "mes_equipment_faults",
+                "listName": "unresolved",
+                "showFilterToolbar": false,
+                "showExportExcel": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

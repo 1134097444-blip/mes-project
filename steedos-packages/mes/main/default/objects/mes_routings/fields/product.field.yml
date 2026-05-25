@@ -1,0 +1,5 @@
+name: product
+type: lookup
+label: 关联物料
+reference_to: mes_materials
+filterable: true

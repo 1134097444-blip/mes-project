@@ -1,0 +1,8 @@
+name: object_mes_work_orders
+type: object
+object: mes_work_orders
+label: 生产工单
+icon: orders
+desktop: true
+mobile: true
+permissions: []

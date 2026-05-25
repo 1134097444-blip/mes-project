@@ -1,0 +1,4 @@
+name: last_maintenance_date
+type: date
+label: 上次维保日期
+sortable: true

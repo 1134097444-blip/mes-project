@@ -1,0 +1,8 @@
+name: object_mes_bom_items
+type: object
+object: mes_bom_items
+label: BOM 清单
+icon: product
+desktop: true
+mobile: true
+permissions: []

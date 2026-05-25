@@ -1,0 +1,16 @@
+name: planned_maintenance
+label: 计划维保
+is_enable: true
+shared: true
+filter_scope: space
+columns:
+  - field: maintenance_number
+  - field: equipment
+  - field: maintenance_type
+  - field: handler
+  - field: planned_date
+filters:
+  - ["status", "=", "planned"]
+sort:
+  - field_name: planned_date
+    order: asc

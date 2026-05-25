@@ -1,0 +1,5 @@
+name: defect
+type: lookup
+label: 关联缺陷
+reference_to: mes_defects
+filterable: true

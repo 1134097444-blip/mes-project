@@ -1,0 +1,16 @@
+name: mes_work_orders.mes_operator
+permission_set_id: mes_operator
+allowCreate: false
+allowRead: true
+allowEdit: true
+allowDelete: false
+allowExport: false
+viewAllRecords: false
+modifyAllRecords: false
+allowReadFiles: true
+allowCreateFiles: false
+allowEditFiles: false
+allowDeleteFiles: false
+viewAllFiles: false
+modifyAllFiles: false
+field_permissions: []

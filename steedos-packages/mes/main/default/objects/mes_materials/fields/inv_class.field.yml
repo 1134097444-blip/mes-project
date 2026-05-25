@@ -1,0 +1,4 @@
+name: inv_class
+label: 存货分类
+type: text
+filterable: true

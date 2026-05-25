@@ -1,0 +1,4 @@
+name: max_qty
+type: number
+label: 最高库存
+min: 0

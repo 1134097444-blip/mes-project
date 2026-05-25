@@ -1,0 +1,4 @@
+name: maintenance_cycle
+type: number
+label: 维保周期（天）
+min: 0

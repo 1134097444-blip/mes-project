@@ -1,0 +1,11 @@
+name: mes_inventory
+label: 线边库存
+icon: inventory
+description: 车间现场库存数量管理，记录物料的收发存情况
+enable_search: true
+enable_chatter: true
+enable_audit: true
+enable_files: true
+enable_api: true
+enable_trash: true
+enable_enhanced_lookup: true

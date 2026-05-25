@@ -1,0 +1,5 @@
+name: inspector
+type: lookup
+label: 检验员
+reference_to: users
+filterable: true

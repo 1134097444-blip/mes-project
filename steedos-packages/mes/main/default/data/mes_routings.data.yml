@@ -1,0 +1,4 @@
+- _id: "rt_device_assy"
+  name: "智能检测设备装配工艺"
+  routing_number: "RT-0001"
+  product: "mat_fin_device"

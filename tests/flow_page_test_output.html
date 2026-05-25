@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  
+        <script>
+          console.log("Server side script injected!");
+          window.BUILDER6_PUBLIC_SETTINGS = {"unpkgUrl":"/unpkg","rootUrl":"http://localhost:5100"};
+        </script>
+      
+
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="/images/logo.svg" />
+    <script>try{var f=localStorage.getItem('steedos_favicon_url');if(f){document.querySelector('link[rel*="icon"]').href=f;}}catch(e){}</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steedos</title>
+
+    <script src="/unpkg/@steedos-widgets/amis@6.3.0-patch.8/sdk/sdk.js"></script>
+
+    <link rel="preload" href="/unpkg/@fortawesome/fontawesome-free@6.2.0/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="stylesheet" href="/unpkg/@fortawesome/fontawesome-free@6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="/unpkg/@salesforce-ux/design-system@2.28.1/assets/styles/salesforce-lightning-design-system.min.css">
+
+    
+    <script src="/unpkg/lodash@4.17.21/lodash.js"></script>
+    <script src="/unpkg/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script async="">
+      window['React'] = amis.require('react');
+      window['ReactDOM'] = amis.require('react-dom');
+      window['moment'] = amis.require('moment');
+      window['Amis'] = amis.require('amis');
+      window['AmisCore'] = amis.require('amis-core');
+      amis.require.ensure('amis-ui', () => {
+        window['AmisUI'] = amis.require('amis-ui');
+      });
+
+      // window['Amis'].registerFilter('t', function (key,param) {
+      //     return typeof key === 'string' ? window.t(key,param) : key;
+      //   })
+
+      // 监听窗口的 load 事件，确保所有脚本都加载完成
+      window.addEventListener('load', function() {
+          window.lodash = window._; // 将 window.lodash 设置为 window._
+      });
+
+      const loadJs = (url, callback)=>{
+        let scriptTag = document.createElement("script");
+        scriptTag.type = "text/javascript";
+        scriptTag.src = url;
+        scriptTag.async = false;
+        document.getElementsByTagName("head")[0].appendChild(scriptTag);
+        scriptTag.onload = function(script){
+            if(callback){
+                callback(script)
+            }
+        }
+    }
+
+    const loadCss = (url)=>{
+        let styleTag = document.createElement("link");
+        styleTag.setAttribute("rel", "stylesheet");
+        styleTag.setAttribute("type", "text/css");
+        styleTag.setAttribute("href", url);
+        document.getElementsByTagName("head")[0].appendChild(styleTag);
+    }
+
+    window.loadJs = loadJs;
+    window.loadCss = loadCss;
+
+    </script>
+
+    <script src="/unpkg/i18next@24.2.2/dist/umd/i18next.min.js"></script>
+    
+    <link rel="stylesheet" href="/unpkg/@steedos-widgets/amis@6.3.0-patch.8/lib/themes/antd.css">
+    <link rel="stylesheet" href="/unpkg/@steedos-widgets/amis@6.3.0-patch.8/lib/helper.css">
+    <link rel="stylesheet" href="/unpkg/@steedos-widgets/amis@6.3.0-patch.8/sdk/iconfont.css">
+    <script type="module" crossorigin src="/assets/index-D-MR1qT9.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BW5Fq9Tj.css">
+  </head>
+  <body class="skin-blue-light fixed steedos sidebar-mini three-columns" >
+    <div id="root" class="steedos skin-blue-light creator h-full flex flex-col relative overflow-hidden bg-slate-50"></div>
+  </body>
+</html>

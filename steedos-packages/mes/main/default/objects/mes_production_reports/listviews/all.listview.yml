@@ -1,0 +1,27 @@
+name: all
+label: 所有报工记录
+is_enable: true
+shared: true
+shared_to: space
+filter_scope: space
+columns:
+  - field: work_order
+  - field: operation
+  - field: operator
+  - field: good_qty
+  - field: defect_qty
+  - field: labor_hours
+  - field: report_date
+  - field: equipment
+  - field: owner
+  - field: created
+sort:
+  - field_name: report_date
+    order: desc
+searchable_fields:
+  - field: name
+mobile_columns:
+  - field: work_order
+  - field: operator
+  - field: good_qty
+  - field: report_date

@@ -1,0 +1,29 @@
+name: all
+label: 所有检验记录
+is_enable: true
+shared: true
+shared_to: space
+filter_scope: space
+columns:
+  - field: inspection_number
+  - field: inspection_type
+  - field: work_order
+  - field: equipment
+  - field: inspector
+  - field: result
+  - field: total_qty
+  - field: defect_qty
+  - field: inspection_date
+  - field: owner
+  - field: created
+sort:
+  - field_name: inspection_date
+    order: desc
+searchable_fields:
+  - field: inspection_number
+  - field: name
+mobile_columns:
+  - field: inspection_number
+  - field: inspection_type
+  - field: result
+  - field: total_qty

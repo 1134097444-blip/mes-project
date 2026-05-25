@@ -1,0 +1,5 @@
+name: location
+type: text
+label: 所在位置
+filterable: true
+sortable: true

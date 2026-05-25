@@ -1,0 +1,14 @@
+name: status
+type: select
+label: 状态
+required: true
+sortable: true
+filterable: true
+options:
+  - label: 计划中
+    value: planned
+  - label: 执行中
+    value: in_progress
+  - label: 已完成
+    value: completed
+defaultValue: planned

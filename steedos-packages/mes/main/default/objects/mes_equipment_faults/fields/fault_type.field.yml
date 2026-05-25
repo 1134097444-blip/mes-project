@@ -1,0 +1,19 @@
+name: fault_type
+type: select
+label: 故障类型
+required: true
+sortable: true
+filterable: true
+options:
+  - label: 机械故障
+    value: mechanical
+  - label: 电气故障
+    value: electrical
+  - label: 液压故障
+    value: hydraulic
+  - label: 气动故障
+    value: pneumatic
+  - label: 软件故障
+    value: software
+  - label: 其他
+    value: other

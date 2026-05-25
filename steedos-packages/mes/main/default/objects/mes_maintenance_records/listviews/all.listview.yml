@@ -1,0 +1,28 @@
+name: all
+label: 所有维保记录
+is_enable: true
+shared: true
+shared_to: space
+filter_scope: space
+columns:
+  - field: maintenance_number
+  - field: equipment
+  - field: maintenance_type
+  - field: status
+  - field: handler
+  - field: planned_date
+  - field: actual_date
+  - field: cost
+  - field: owner
+  - field: created
+sort:
+  - field_name: planned_date
+    order: desc
+searchable_fields:
+  - field: maintenance_number
+  - field: name
+mobile_columns:
+  - field: maintenance_number
+  - field: equipment
+  - field: maintenance_type
+  - field: status

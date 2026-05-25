@@ -1,0 +1,8 @@
+name: object_mes_equipment_faults
+type: object
+object: mes_equipment_faults
+label: 故障报修
+icon: problem
+desktop: true
+mobile: true
+permissions: []

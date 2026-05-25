@@ -1,0 +1,16 @@
+name: mes_equipment_faults.mes_quality_inspector
+permission_set_id: mes_quality_inspector
+allowCreate: false
+allowRead: true
+allowEdit: false
+allowDelete: false
+allowExport: true
+viewAllRecords: true
+modifyAllRecords: false
+allowReadFiles: true
+allowCreateFiles: false
+allowEditFiles: false
+allowDeleteFiles: false
+viewAllFiles: true
+modifyAllFiles: false
+field_permissions: []

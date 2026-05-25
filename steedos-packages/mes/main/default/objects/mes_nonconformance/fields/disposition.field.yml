@@ -1,0 +1,13 @@
+name: disposition
+type: select
+label: 处置方式
+required: true
+options:
+  - label: 返工
+    value: rework
+  - label: 报废
+    value: scrap
+  - label: 让步接收
+    value: concession
+  - label: 降级使用
+    value: downgrade

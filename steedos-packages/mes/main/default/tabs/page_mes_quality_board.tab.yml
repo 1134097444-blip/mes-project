@@ -1,0 +1,8 @@
+name: page_mes_quality_board
+type: page
+page: mes_quality_board
+label: 质量统计看板
+icon: dashboard
+desktop: true
+mobile: true
+permissions: []

@@ -1,0 +1,6 @@
+name: name
+type: text
+label: 路线名称
+required: true
+searchable: true
+sortable: true

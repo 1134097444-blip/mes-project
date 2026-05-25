@@ -1,0 +1,4 @@
+name: component
+label: 子件物料
+type: lookup
+reference_to: mes_materials

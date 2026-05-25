@@ -1,0 +1,20 @@
+{
+  "name": "mes-project",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": [
+    "steedos-packages/*"
+  ],
+  "scripts": {
+    "start": "steedos start"
+  },
+  "resolutions": {
+    "graphql": "16.14.0"
+  },
+  "dependencies": {
+    "@steedos/server": "latest",
+    "playwright": "^1.60.0",
+    "puppeteer": "^25.0.4",
+    "zombie": "^6.1.4"
+  }
+}

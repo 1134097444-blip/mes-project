@@ -1,0 +1,11 @@
+name: mes_bom_items
+label: BOM 清单
+icon: product
+description: 物料清单明细，定义产品所需的物料组成和用量
+enable_search: true
+enable_chatter: true
+enable_audit: true
+enable_files: true
+enable_api: true
+enable_trash: true
+enable_enhanced_lookup: true

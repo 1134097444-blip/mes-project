@@ -1,0 +1,22 @@
+- _id: "wo_mq2000_001"
+  name: "智能检测设备 MQ-2000 生产工单"
+  order_number: "WO-20260518-0001"
+  status: "released"
+  priority: "high"
+  planned_qty: 50
+  completed_qty: 0
+  defect_qty: 0
+  planned_start_date: 2026-05-18T08:00:00Z
+  planned_end_date: 2026-05-25T17:00:00Z
+
+- _id: "wo_mq2000_002"
+  name: "智能检测设备 MQ-2000 返工工单"
+  order_number: "WO-20260518-0002"
+  status: "in_progress"
+  priority: "medium"
+  planned_qty: 10
+  completed_qty: 3
+  defect_qty: 1
+  planned_start_date: 2026-05-16T08:00:00Z
+  planned_end_date: 2026-05-20T17:00:00Z
+  actual_start_date: 2026-05-16T08:30:00Z

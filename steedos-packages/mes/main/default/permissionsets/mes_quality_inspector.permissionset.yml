@@ -1,0 +1,4 @@
+name: mes_quality_inspector
+label: 质检员
+type: permission_set
+locked: false

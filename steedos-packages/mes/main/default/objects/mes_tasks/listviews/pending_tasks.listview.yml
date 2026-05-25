@@ -1,0 +1,17 @@
+name: pending_tasks
+label: 待领工
+columns:
+  - field: task_number
+  - field: name
+  - field: work_order
+  - field: operation
+  - field: worker
+  - field: planned_qty
+filters:
+  - field: status
+    operation: "="
+    value: pending
+filter_scope: space
+sort:
+  - field: created
+    order: desc

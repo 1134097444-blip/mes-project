@@ -1,0 +1,5 @@
+name: total_qty
+type: number
+label: 检验数量
+required: true
+min: 0

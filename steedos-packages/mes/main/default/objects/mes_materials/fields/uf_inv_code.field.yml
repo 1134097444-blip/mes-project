@@ -1,0 +1,5 @@
+name: uf_inv_code
+label: 用友存货编码
+type: text
+readonly: true
+hidden: true

@@ -1,0 +1,6 @@
+name: quantity
+type: number
+label: 库存数量
+required: true
+min: 0
+sortable: true

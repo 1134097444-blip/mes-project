@@ -1,0 +1,26 @@
+name: all
+label: 所有库存
+is_enable: true
+shared: true
+shared_to: space
+filter_scope: space
+columns:
+  - field: material
+  - field: quantity
+  - field: unit
+  - field: location
+  - field: min_qty
+  - field: max_qty
+  - field: owner
+  - field: created
+sort:
+  - field_name: material
+    order: asc
+searchable_fields:
+  - field: name
+  - field: location
+mobile_columns:
+  - field: material
+  - field: quantity
+  - field: unit
+  - field: location

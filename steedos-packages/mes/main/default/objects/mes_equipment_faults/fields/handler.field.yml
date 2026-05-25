@@ -1,0 +1,5 @@
+name: handler
+type: lookup
+label: 维修人
+reference_to: users
+filterable: true

@@ -1,0 +1,4 @@
+name: is_subcontract
+type: boolean
+label: 委外工序
+defaultValue: false

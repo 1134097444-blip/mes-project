@@ -1,0 +1,4 @@
+name: description
+type: textarea
+label: 缺陷描述
+is_wide: true

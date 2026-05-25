@@ -1,0 +1,26 @@
+name: all
+label: 所有 BOM 物料
+is_enable: true
+shared: true
+shared_to: space
+filter_scope: space
+columns:
+  - field: bom_number
+  - field: name
+  - field: product
+  - field: quantity
+  - field: unit
+  - field: level
+  - field: owner
+  - field: created
+sort:
+  - field_name: level
+    order: asc
+searchable_fields:
+  - field: name
+  - field: bom_number
+mobile_columns:
+  - field: bom_number
+  - field: name
+  - field: quantity
+  - field: unit

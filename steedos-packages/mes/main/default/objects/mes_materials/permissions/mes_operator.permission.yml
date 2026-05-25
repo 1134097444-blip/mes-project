@@ -1,0 +1,16 @@
+name: mes_materials.mes_operator
+permission_set_id: mes_operator
+allowCreate: false
+allowRead: true
+allowEdit: false
+allowDelete: false
+allowExport: false
+viewAllRecords: true
+modifyAllRecords: false
+allowReadFiles: true
+allowCreateFiles: false
+allowEditFiles: false
+allowDeleteFiles: false
+viewAllFiles: true
+modifyAllFiles: false
+field_permissions: []

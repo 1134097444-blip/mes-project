@@ -1,0 +1,12 @@
+name: all
+label: 全部车间
+columns:
+  - field: workshop_code
+  - field: name
+  - field: supervisor
+  - field: description
+  - field: created
+filter_scope: space
+sort:
+  - field: created
+    order: desc

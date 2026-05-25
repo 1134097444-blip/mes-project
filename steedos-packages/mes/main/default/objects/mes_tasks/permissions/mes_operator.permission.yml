@@ -1,0 +1,9 @@
+name: mes_tasks.mes_operator
+permission_set_id: mes_operator
+allowCreate: false
+allowDelete: false
+allowEdit: true
+allowRead: true
+viewAllRecords: false
+modifyAllRecords: false
+field_permissions: []

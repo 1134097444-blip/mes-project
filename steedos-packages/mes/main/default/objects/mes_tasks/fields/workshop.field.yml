@@ -1,0 +1,6 @@
+name: workshop
+type: lookup
+label: 所属车间
+reference_to: mes_workshops
+filterable: true
+sortable: true

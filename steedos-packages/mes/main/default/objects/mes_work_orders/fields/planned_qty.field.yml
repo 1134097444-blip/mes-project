@@ -1,0 +1,6 @@
+name: planned_qty
+type: number
+label: 计划数量
+required: true
+sortable: true
+min: 0

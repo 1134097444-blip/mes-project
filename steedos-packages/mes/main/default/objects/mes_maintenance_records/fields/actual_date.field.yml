@@ -1,0 +1,4 @@
+name: actual_date
+type: datetime
+label: 实际日期
+sortable: true

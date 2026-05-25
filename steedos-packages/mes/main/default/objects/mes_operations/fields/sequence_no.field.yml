@@ -1,0 +1,6 @@
+name: sequence_no
+type: number
+label: 工序序号
+required: true
+sortable: true
+min: 0

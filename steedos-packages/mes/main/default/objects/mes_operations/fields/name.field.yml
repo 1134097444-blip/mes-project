@@ -1,0 +1,6 @@
+name: name
+type: text
+label: 工序名称
+required: true
+searchable: true
+sortable: true

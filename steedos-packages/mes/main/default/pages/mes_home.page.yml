@@ -1,0 +1,5 @@
+name: mes_home
+label: MES 首页
+type: app
+render_engine: amis
+is_active: true

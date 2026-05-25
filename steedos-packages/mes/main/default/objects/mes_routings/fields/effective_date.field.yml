@@ -1,0 +1,4 @@
+name: effective_date
+type: date
+label: 生效日期
+filterable: true

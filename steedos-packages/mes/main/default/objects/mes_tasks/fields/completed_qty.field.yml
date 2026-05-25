@@ -1,0 +1,4 @@
+name: completed_qty
+type: number
+label: 已完成数量
+sortable: true

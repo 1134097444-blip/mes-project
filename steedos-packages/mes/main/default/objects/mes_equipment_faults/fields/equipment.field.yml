@@ -1,0 +1,6 @@
+name: equipment
+type: lookup
+label: 关联设备
+reference_to: mes_equipment
+required: true
+filterable: true

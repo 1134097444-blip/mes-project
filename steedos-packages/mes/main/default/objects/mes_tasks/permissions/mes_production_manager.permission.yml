@@ -1,0 +1,9 @@
+name: mes_tasks.mes_production_manager
+permission_set_id: mes_production_manager
+allowCreate: true
+allowDelete: false
+allowEdit: true
+allowRead: true
+viewAllRecords: true
+modifyAllRecords: true
+field_permissions: []

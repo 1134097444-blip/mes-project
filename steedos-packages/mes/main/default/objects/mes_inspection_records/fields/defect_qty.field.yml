@@ -1,0 +1,5 @@
+name: defect_qty
+type: number
+label: 缺陷数量
+defaultValue: 0
+min: 0

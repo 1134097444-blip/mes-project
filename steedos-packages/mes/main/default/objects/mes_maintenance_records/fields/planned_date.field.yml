@@ -1,0 +1,4 @@
+name: planned_date
+type: date
+label: 计划日期
+sortable: true

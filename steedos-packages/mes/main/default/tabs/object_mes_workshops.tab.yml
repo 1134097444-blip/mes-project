@@ -1,0 +1,8 @@
+name: object_mes_workshops
+type: object
+object: mes_workshops
+label: 车间管理
+icon: groups
+desktop: true
+mobile: true
+permissions: []

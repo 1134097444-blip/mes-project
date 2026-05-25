@@ -1,0 +1,82 @@
+{
+  "type": "page",
+  "title": "制造执行系统",
+  "body": [
+    {
+      "type": "grid",
+      "columns": [
+        {
+          "lg": 6,
+          "md": 12,
+          "body": [
+            {
+              "type": "panel",
+              "title": "生产执行",
+              "subTitle": "工单管理 · 报工记录",
+              "className": "mb-4",
+              "body": {
+                "type": "tpl",
+                "tpl": "<div class=\"p-4 text-gray-600\">管理生产工单的下达、执行和完工报工。跟踪工单状态、计划数量和完成进度。</div>"
+              }
+            },
+            {
+              "type": "panel",
+              "title": "质量管控",
+              "subTitle": "检验记录 · 缺陷管理",
+              "className": "mb-4",
+              "body": {
+                "type": "tpl",
+                "tpl": "<div class=\"p-4 text-gray-600\">记录来料检验、过程检验和完工检验。登记缺陷信息、跟踪不合格品处置流程。</div>"
+              }
+            },
+            {
+              "type": "panel",
+              "title": "物料管理",
+              "subTitle": "物料主数据 · 线边库存",
+              "className": "mb-4",
+              "body": {
+                "type": "tpl",
+                "tpl": "<div class=\"p-4 text-gray-600\">维护物料主数据，管理车间线边库存的收发存流水。</div>"
+              }
+            }
+          ]
+        },
+        {
+          "lg": 6,
+          "md": 12,
+          "body": [
+            {
+              "type": "panel",
+              "title": "工艺数据",
+              "subTitle": "工艺路线 · 工序定义",
+              "className": "mb-4",
+              "body": {
+                "type": "tpl",
+                "tpl": "<div class=\"p-4 text-gray-600\">定义产品的加工工艺路线和每道工序的标准参数。支持多版本管理。</div>"
+              }
+            },
+            {
+              "type": "panel",
+              "title": "设备管理",
+              "subTitle": "设备台账 · 维保故障",
+              "className": "mb-4",
+              "body": {
+                "type": "tpl",
+                "tpl": "<div class=\"p-4 text-gray-600\">管理车间设备台账，记录维保历史和故障报修处理。</div>"
+              }
+            },
+            {
+              "type": "panel",
+              "title": "系统信息",
+              "subTitle": "版本与支持",
+              "body": {
+                "type": "tpl",
+                "tpl": "<div class=\"p-4 text-gray-600\">MES 系统 v1.0.0<br/>基于 Steedos 平台构建<br/>AI Agent 驱动开发</div>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

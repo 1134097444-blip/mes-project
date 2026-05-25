@@ -1,0 +1,123 @@
+{
+  "type": "page",
+  "title": "质量统计看板",
+  "body": [
+    {
+      "type": "grid",
+      "columns": [
+        {
+          "lg": 3,
+          "md": 6,
+          "body": [
+            {
+              "type": "service",
+              "api": "/api/v6/data/mes_inspection_records?skip=0&top=0&filters=[%22result%22,%22=%22,%22pass%22]",
+              "body": {
+                "type": "panel",
+                "className": "text-center",
+                "body": [
+                  { "type": "tpl", "tpl": "<div class=\"h3 text-muted\">合格批次</div>" },
+                  { "type": "tpl", "tpl": "<div class=\"h1 text-success\">${items.length | default: 0}</div>" }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "lg": 3,
+          "md": 6,
+          "body": [
+            {
+              "type": "service",
+              "api": "/api/v6/data/mes_inspection_records?skip=0&top=0&filters=[%22result%22,%22=%22,%22fail%22]",
+              "body": {
+                "type": "panel",
+                "className": "text-center",
+                "body": [
+                  { "type": "tpl", "tpl": "<div class=\"h3 text-muted\">不合格批次</div>" },
+                  { "type": "tpl", "tpl": "<div class=\"h1 text-danger\">${items.length | default: 0}</div>" }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "lg": 3,
+          "md": 6,
+          "body": [
+            {
+              "type": "service",
+              "api": "/api/v6/data/mes_defects?skip=0&top=0",
+              "body": {
+                "type": "panel",
+                "className": "text-center",
+                "body": [
+                  { "type": "tpl", "tpl": "<div class=\"h3 text-muted\">缺陷总数</div>" },
+                  { "type": "tpl", "tpl": "<div class=\"h1 text-warning\">${items.length | default: 0}</div>" }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "lg": 3,
+          "md": 6,
+          "body": [
+            {
+              "type": "service",
+              "api": "/api/v6/data/mes_nonconformance?skip=0&top=0",
+              "body": {
+                "type": "panel",
+                "className": "text-center",
+                "body": [
+                  { "type": "tpl", "tpl": "<div class=\"h3 text-muted\">不合格处理</div>" },
+                  { "type": "tpl", "tpl": "<div class=\"h1 text-info\">${items.length | default: 0}</div>" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "grid",
+      "columns": [
+        {
+          "lg": 6,
+          "body": [
+            {
+              "type": "panel",
+              "title": "最近检验记录",
+              "body": {
+                "type": "steedos-object-listview",
+                "objectApiName": "mes_inspection_records",
+                "listName": "all",
+                "showFilterToolbar": false,
+                "showExportExcel": false
+              }
+            }
+          ]
+        },
+        {
+          "lg": 6,
+          "body": [
+            {
+              "type": "panel",
+              "title": "不合格处理",
+              "body": {
+                "type": "steedos-object-listview",
+                "objectApiName": "mes_nonconformance",
+                "listName": "pending_list",
+                "showFilterToolbar": false,
+                "showExportExcel": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

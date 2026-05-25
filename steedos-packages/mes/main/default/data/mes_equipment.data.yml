@@ -1,0 +1,26 @@
+- _id: "eq_cnc_01"
+  name: "CNC 加工中心"
+  equipment_code: "EQ-0001"
+  model: "DMG MORI CMX 1100V"
+  location: "A 车间-加工区"
+  status: "running"
+  purchase_date: 2025-06-01
+  maintenance_cycle: 90
+
+- _id: "eq_laser_01"
+  name: "激光切割机"
+  equipment_code: "EQ-0002"
+  model: "大族激光 12000W"
+  location: "A 车间-切割区"
+  status: "running"
+  purchase_date: 2025-08-15
+  maintenance_cycle: 60
+
+- _id: "eq_insp_01"
+  name: "三坐标测量仪"
+  equipment_code: "EQ-0003"
+  model: "海克斯康 GLOBAL 7.10.7"
+  location: "质检室"
+  status: "maintenance"
+  purchase_date: 2025-03-01
+  maintenance_cycle: 180

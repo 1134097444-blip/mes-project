@@ -1,0 +1,5 @@
+name: reporter
+type: lookup
+label: 报修人
+reference_to: users
+filterable: true

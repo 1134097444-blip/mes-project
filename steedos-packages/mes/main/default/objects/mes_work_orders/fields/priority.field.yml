@@ -1,0 +1,14 @@
+name: priority
+type: select
+label: 优先级
+required: true
+sortable: true
+filterable: true
+options:
+  - label: 高
+    value: high
+  - label: 中
+    value: medium
+  - label: 低
+    value: low
+defaultValue: medium

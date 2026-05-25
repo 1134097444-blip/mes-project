@@ -1,0 +1,5 @@
+name: responsible
+type: lookup
+label: 负责人
+reference_to: users
+filterable: true

@@ -1,0 +1,9 @@
+name: mes_tasks.mes_admin
+permission_set_id: mes_admin
+allowCreate: true
+allowDelete: true
+allowEdit: true
+allowRead: true
+viewAllRecords: true
+modifyAllRecords: true
+field_permissions: []

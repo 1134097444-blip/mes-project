@@ -1,0 +1,20 @@
+name: my_tasks
+label: 我的任务
+columns:
+  - field: task_number
+  - field: name
+  - field: work_order
+  - field: operation
+  - field: status
+  - field: planned_qty
+  - field: completed_qty
+filter_scope: mine
+filters:
+  - field: status
+    operation: in
+    value:
+      - pending
+      - in_progress
+sort:
+  - field: created
+    order: desc

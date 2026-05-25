@@ -1,0 +1,8 @@
+name: order_number
+type: autonumber
+label: 工单编号
+formula: WO-{YYYY}{MM}{DD}-{0000}
+is_name: true
+readonly: true
+sortable: true
+filterable: true

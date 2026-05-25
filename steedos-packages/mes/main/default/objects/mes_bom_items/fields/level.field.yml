@@ -1,0 +1,6 @@
+name: level
+type: number
+label: BOM 层级
+min: 0
+defaultValue: 1
+sortable: true

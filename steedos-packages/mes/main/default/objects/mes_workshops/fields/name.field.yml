@@ -1,0 +1,6 @@
+name: name
+type: text
+label: 车间名称
+required: true
+searchable: true
+sortable: true

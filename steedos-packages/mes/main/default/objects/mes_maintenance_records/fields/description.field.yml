@@ -1,0 +1,4 @@
+name: description
+type: textarea
+label: 维保说明
+is_wide: true

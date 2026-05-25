@@ -1,0 +1,16 @@
+name: pending_list
+label: 待处理
+is_enable: true
+shared: true
+filter_scope: space
+columns:
+  - field: nc_number
+  - field: defect
+  - field: work_order
+  - field: disposition
+  - field: handler
+filters:
+  - ["status", "=", "pending"]
+sort:
+  - field_name: created
+    order: desc

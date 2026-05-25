@@ -1,0 +1,4 @@
+name: description
+type: textarea
+label: 检验说明
+is_wide: true

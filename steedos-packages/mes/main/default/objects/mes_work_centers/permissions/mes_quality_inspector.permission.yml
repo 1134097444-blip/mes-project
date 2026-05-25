@@ -1,0 +1,9 @@
+name: mes_work_centers.mes_quality_inspector
+permission_set_id: mes_quality_inspector
+allowCreate: false
+allowDelete: false
+allowEdit: false
+allowRead: true
+viewAllRecords: true
+modifyAllRecords: false
+field_permissions: []

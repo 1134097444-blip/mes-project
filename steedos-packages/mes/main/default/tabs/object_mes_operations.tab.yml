@@ -1,0 +1,8 @@
+name: object_mes_operations
+type: object
+object: mes_operations
+label: 工序定义
+icon: checklist_item
+desktop: true
+mobile: true
+permissions: []

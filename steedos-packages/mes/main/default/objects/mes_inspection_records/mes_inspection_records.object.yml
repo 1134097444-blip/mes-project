@@ -1,0 +1,11 @@
+name: mes_inspection_records
+label: 检验记录
+icon: scan
+description: 来料检验、过程检验和完工检验的记录
+enable_search: true
+enable_chatter: true
+enable_audit: true
+enable_files: true
+enable_api: true
+enable_trash: true
+enable_enhanced_lookup: true

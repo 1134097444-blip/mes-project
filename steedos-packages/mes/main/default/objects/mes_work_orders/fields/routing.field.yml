@@ -1,0 +1,5 @@
+name: routing
+type: lookup
+label: 工艺路线
+reference_to: mes_routings
+filterable: true

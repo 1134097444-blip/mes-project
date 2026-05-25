@@ -1,0 +1,4 @@
+name: labor_hours
+type: number
+label: 工时（小时）
+min: 0

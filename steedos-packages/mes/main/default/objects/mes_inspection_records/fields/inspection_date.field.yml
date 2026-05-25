@@ -1,0 +1,5 @@
+name: inspection_date
+type: datetime
+label: 检验日期
+sortable: true
+defaultValue: '{now}'

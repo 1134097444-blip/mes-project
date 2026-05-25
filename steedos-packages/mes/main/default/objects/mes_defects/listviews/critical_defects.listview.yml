@@ -1,0 +1,17 @@
+name: critical_defects
+label: 严重缺陷
+is_enable: true
+shared: true
+filter_scope: space
+columns:
+  - field: defect_number
+  - field: defect_type
+  - field: severity
+  - field: inspection
+  - field: work_order
+  - field: defect_qty
+filters:
+  - ["severity", "in", ["critical", "fatal"]]
+sort:
+  - field_name: created
+    order: desc

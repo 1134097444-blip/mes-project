@@ -1,0 +1,15 @@
+name: finished_goods
+label: 成品
+is_enable: true
+shared: true
+filter_scope: space
+columns:
+  - field: material_code
+  - field: name
+  - field: specification
+  - field: unit
+filters:
+  - ["material_type", "=", "finished"]
+sort:
+  - field_name: name
+    order: asc

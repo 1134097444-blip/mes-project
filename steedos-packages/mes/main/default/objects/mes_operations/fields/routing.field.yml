@@ -1,0 +1,7 @@
+name: routing
+type: master_detail
+label: 所属路线
+reference_to: mes_routings
+required: true
+filterable: true
+sortable: true

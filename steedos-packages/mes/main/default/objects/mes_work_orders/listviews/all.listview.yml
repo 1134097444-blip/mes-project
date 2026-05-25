@@ -1,0 +1,28 @@
+name: all
+label: 所有工单
+is_enable: true
+shared: true
+shared_to: space
+filter_scope: space
+columns:
+  - field: order_number
+  - field: name
+  - field: status
+  - field: priority
+  - field: planned_qty
+  - field: completed_qty
+  - field: planned_start_date
+  - field: assignee
+  - field: owner
+  - field: created
+sort:
+  - field_name: created
+    order: desc
+searchable_fields:
+  - field: order_number
+  - field: name
+mobile_columns:
+  - field: order_number
+  - field: name
+  - field: status
+  - field: planned_qty

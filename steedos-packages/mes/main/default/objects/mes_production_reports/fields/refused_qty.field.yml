@@ -1,0 +1,5 @@
+name: refused_qty
+label: 拒收数量
+type: number
+min: 0
+sortable: true

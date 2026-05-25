@@ -1,0 +1,18 @@
+name: my_pending
+label: 我的待处理
+is_enable: true
+shared: true
+filter_scope: mine
+columns:
+  - field: order_number
+  - field: name
+  - field: status
+  - field: priority
+  - field: planned_qty
+  - field: completed_qty
+  - field: planned_start_date
+sort:
+  - field_name: planned_start_date
+    order: asc
+filters:
+  - ["status", "notin", ["completed", "cancelled"]]

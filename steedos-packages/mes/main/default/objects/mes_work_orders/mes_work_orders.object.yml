@@ -1,0 +1,12 @@
+name: mes_work_orders
+label: 生产工单
+icon: orders
+description: 生产任务的核心载体，记录工单的创建、下达、执行和完工全过程
+enable_search: true
+enable_chatter: true
+enable_audit: true
+enable_files: true
+enable_api: true
+enable_trash: true
+enable_enhanced_lookup: true
+enable_inline_edit: true

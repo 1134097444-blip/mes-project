@@ -1,0 +1,5 @@
+name: operation
+type: lookup
+label: 工序
+reference_to: mes_operations
+filterable: true

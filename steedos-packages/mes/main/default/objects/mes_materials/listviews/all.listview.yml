@@ -1,0 +1,26 @@
+name: all
+label: 所有物料
+is_enable: true
+shared: true
+shared_to: space
+filter_scope: space
+columns:
+  - field: material_code
+  - field: name
+  - field: material_type
+  - field: specification
+  - field: unit
+  - field: owner
+  - field: created
+sort:
+  - field_name: name
+    order: asc
+searchable_fields:
+  - field: name
+  - field: material_code
+  - field: specification
+mobile_columns:
+  - field: material_code
+  - field: name
+  - field: material_type
+  - field: unit

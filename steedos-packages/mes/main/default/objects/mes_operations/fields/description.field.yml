@@ -1,0 +1,4 @@
+name: description
+type: textarea
+label: 作业指导
+is_wide: true

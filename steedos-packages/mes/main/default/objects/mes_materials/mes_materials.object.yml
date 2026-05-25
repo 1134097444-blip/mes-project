@@ -1,0 +1,11 @@
+name: mes_materials
+label: 物料主数据
+icon: product_item
+description: 原材料、半成品、成品的基础信息定义
+enable_search: true
+enable_chatter: true
+enable_audit: true
+enable_files: true
+enable_api: true
+enable_trash: true
+enable_enhanced_lookup: true

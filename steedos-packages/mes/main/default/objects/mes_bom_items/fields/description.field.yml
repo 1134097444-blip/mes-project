@@ -1,0 +1,4 @@
+name: description
+type: textarea
+label: 备注
+is_wide: true

@@ -1,0 +1,4 @@
+name: min_qty
+type: number
+label: 最低库存
+min: 0

@@ -1,0 +1,8 @@
+name: object_mes_inventory
+type: object
+object: mes_inventory
+label: 线边库存
+icon: inventory
+desktop: true
+mobile: true
+permissions: []

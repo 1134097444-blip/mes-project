@@ -1,0 +1,5 @@
+name: work_order
+type: lookup
+label: 关联工单
+reference_to: mes_work_orders
+filterable: true

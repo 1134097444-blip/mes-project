@@ -1,0 +1,5 @@
+name: uf_operation_id
+type: text
+label: 用友工序ID
+readonly: true
+hidden: true

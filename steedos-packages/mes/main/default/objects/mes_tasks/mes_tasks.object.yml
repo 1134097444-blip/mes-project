@@ -1,0 +1,11 @@
+name: mes_tasks
+label: 工人任务
+icon: task
+description: 车间工人领工/报工/异常上报任务
+enable_search: true
+enable_chatter: true
+enable_audit: true
+enable_files: true
+enable_api: true
+enable_trash: true
+enable_enhanced_lookup: true

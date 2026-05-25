@@ -1,0 +1,16 @@
+name: low_stock
+label: 库存不足
+is_enable: true
+shared: true
+filter_scope: space
+columns:
+  - field: material
+  - field: quantity
+  - field: min_qty
+  - field: unit
+  - field: location
+filters:
+  - ["quantity", "<=", "{$min_qty}"]
+sort:
+  - field_name: quantity
+    order: asc

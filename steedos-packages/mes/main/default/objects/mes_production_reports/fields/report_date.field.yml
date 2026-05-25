@@ -1,0 +1,5 @@
+name: report_date
+type: datetime
+label: 报工时间
+sortable: true
+defaultValue: '{now}'

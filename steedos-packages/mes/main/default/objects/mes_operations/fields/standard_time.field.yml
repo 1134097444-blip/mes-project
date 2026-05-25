@@ -1,0 +1,4 @@
+name: standard_time
+type: number
+label: 标准工时（分钟）
+min: 0

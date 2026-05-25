@@ -1,0 +1,8 @@
+name: object_mes_defects
+type: object
+object: mes_defects
+label: 缺陷登记
+icon: cross
+desktop: true
+mobile: true
+permissions: []

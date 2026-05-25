@@ -1,0 +1,16 @@
+name: status
+type: select
+label: 状态
+required: true
+sortable: true
+filterable: true
+options:
+  - label: 正常运行
+    value: running
+  - label: 停机
+    value: stopped
+  - label: 维修中
+    value: maintenance
+  - label: 报废
+    value: scrapped
+defaultValue: running

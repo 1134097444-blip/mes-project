@@ -1,0 +1,5 @@
+name: inspection
+type: lookup
+label: 关联检验
+reference_to: mes_inspection_records
+filterable: true

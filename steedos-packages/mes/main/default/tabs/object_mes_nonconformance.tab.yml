@@ -1,0 +1,8 @@
+name: object_mes_nonconformance
+type: object
+object: mes_nonconformance
+label: 不合格处理
+icon: block_visitor
+desktop: true
+mobile: true
+permissions: []

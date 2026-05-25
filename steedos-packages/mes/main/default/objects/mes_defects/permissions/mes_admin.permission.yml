@@ -1,0 +1,16 @@
+name: mes_defects.mes_admin
+permission_set_id: mes_admin
+allowCreate: true
+allowRead: true
+allowEdit: true
+allowDelete: true
+allowExport: true
+viewAllRecords: true
+modifyAllRecords: true
+allowReadFiles: true
+allowCreateFiles: true
+allowEditFiles: true
+allowDeleteFiles: true
+viewAllFiles: true
+modifyAllFiles: true
+field_permissions: []

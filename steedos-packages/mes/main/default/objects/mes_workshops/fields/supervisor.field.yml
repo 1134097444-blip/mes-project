@@ -1,0 +1,5 @@
+name: supervisor
+type: lookup
+label: 车间主任
+reference_to: users
+filterable: true

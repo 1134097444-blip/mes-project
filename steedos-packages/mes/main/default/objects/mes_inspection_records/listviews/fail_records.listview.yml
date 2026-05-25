@@ -1,0 +1,19 @@
+name: fail_records
+label: 不合格记录
+is_enable: true
+shared: true
+filter_scope: space
+columns:
+  - field: inspection_number
+  - field: inspection_type
+  - field: work_order
+  - field: equipment
+  - field: inspector
+  - field: total_qty
+  - field: defect_qty
+  - field: inspection_date
+filters:
+  - ["result", "=", "fail"]
+sort:
+  - field_name: inspection_date
+    order: desc

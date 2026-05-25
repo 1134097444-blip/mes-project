@@ -1,0 +1,4 @@
+name: cost
+type: number
+label: 费用
+min: 0

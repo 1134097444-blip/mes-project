@@ -1,0 +1,16 @@
+name: unit
+type: select
+label: 计量单位
+required: true
+options:
+  - label: 个
+    value: pcs
+  - label: 件
+    value: piece
+  - label: kg
+    value: kg
+  - label: m
+    value: m
+  - label: L
+    value: L
+defaultValue: pcs

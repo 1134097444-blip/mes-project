@@ -1,0 +1,17 @@
+name: defect_type
+type: select
+label: 缺陷类型
+required: true
+sortable: true
+filterable: true
+options:
+  - label: 尺寸超差
+    value: dimension
+  - label: 外观不良
+    value: appearance
+  - label: 材料缺陷
+    value: material
+  - label: 功能异常
+    value: function
+  - label: 其他
+    value: other

@@ -1,0 +1,5 @@
+name: mes_quality_board
+label: 质量统计看板
+type: app
+render_engine: amis
+is_active: true

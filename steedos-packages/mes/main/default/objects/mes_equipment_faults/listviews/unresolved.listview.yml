@@ -1,0 +1,18 @@
+name: unresolved
+label: 未解决故障
+is_enable: true
+shared: true
+filter_scope: space
+columns:
+  - field: fault_number
+  - field: equipment
+  - field: fault_type
+  - field: severity
+  - field: status
+  - field: reporter
+  - field: report_date
+filters:
+  - ["status", "notin", ["resolved"]]
+sort:
+  - field_name: report_date
+    order: desc

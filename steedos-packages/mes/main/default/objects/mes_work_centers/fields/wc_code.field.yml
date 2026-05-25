@@ -1,0 +1,6 @@
+name: wc_code
+label: 工作中心编码
+type: text
+required: true
+filterable: true
+sortable: true

@@ -1,0 +1,16 @@
+name: status
+type: select
+label: 状态
+required: true
+sortable: true
+filterable: true
+options:
+  - label: 待报修
+    value: pending
+  - label: 已报修
+    value: reported
+  - label: 维修中
+    value: in_progress
+  - label: 已修复
+    value: resolved
+defaultValue: pending

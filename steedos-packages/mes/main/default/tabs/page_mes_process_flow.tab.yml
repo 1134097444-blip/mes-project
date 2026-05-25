@@ -1,0 +1,8 @@
+name: page_mes_process_flow
+type: page
+page: mes_process_flow
+label: 业务流程导航
+icon: flow_screen
+desktop: true
+mobile: true
+permissions: []

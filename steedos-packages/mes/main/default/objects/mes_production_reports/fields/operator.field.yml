@@ -1,0 +1,5 @@
+name: operator
+type: lookup
+label: 操作工
+reference_to: users
+filterable: true

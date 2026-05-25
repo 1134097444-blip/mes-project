@@ -1,0 +1,8 @@
+name: object_mes_tasks
+type: object
+object: mes_tasks
+label: 工人任务
+icon: task
+desktop: true
+mobile: true
+permissions: []

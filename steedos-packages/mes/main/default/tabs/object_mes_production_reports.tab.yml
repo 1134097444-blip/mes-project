@@ -1,0 +1,8 @@
+name: object_mes_production_reports
+type: object
+object: mes_production_reports
+label: 报工记录
+icon: feedback
+desktop: true
+mobile: true
+permissions: []

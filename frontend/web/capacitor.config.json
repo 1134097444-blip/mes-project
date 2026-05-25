@@ -1,0 +1,31 @@
+{
+  "appId": "com.mes.manufacturing",
+  "appName": "MES制造执行系统",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true,
+    "allowNavigation": [
+      "localhost:5100",
+      "172.16.20.179:5100",
+      "192.168.*.*:5100"
+    ]
+  },
+  "android": {
+    "buildOptions": {
+      "keystorePath": null,
+      "keystoreAlias": null
+    }
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#080b1a",
+      "androidSplashResourceName": "splash"
+    },
+    "Keyboard": {
+      "resize": "body",
+      "style": "dark"
+    }
+  }
+}

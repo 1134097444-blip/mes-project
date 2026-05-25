@@ -1,0 +1,8 @@
+name: object_mes_routings
+type: object
+object: mes_routings
+label: 工艺路线
+icon: kanban
+desktop: true
+mobile: true
+permissions: []

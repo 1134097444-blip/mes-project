@@ -1,0 +1,4 @@
+name: root_cause
+type: textarea
+label: 根本原因
+is_wide: true

@@ -1,0 +1,6 @@
+name: name
+type: text
+label: 物料名称
+required: true
+searchable: true
+sortable: true

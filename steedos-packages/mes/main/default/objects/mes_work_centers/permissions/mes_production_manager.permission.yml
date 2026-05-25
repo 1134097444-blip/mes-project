@@ -1,0 +1,9 @@
+name: mes_work_centers.mes_production_manager
+permission_set_id: mes_production_manager
+allowCreate: true
+allowDelete: false
+allowEdit: true
+allowRead: true
+viewAllRecords: true
+modifyAllRecords: false
+field_permissions: []

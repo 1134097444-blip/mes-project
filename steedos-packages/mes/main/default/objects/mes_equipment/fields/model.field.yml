@@ -1,0 +1,4 @@
+name: model
+type: text
+label: 规格型号
+searchable: true

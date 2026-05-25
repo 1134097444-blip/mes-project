@@ -1,0 +1,15 @@
+name: maintenance_type
+type: select
+label: 维保类型
+required: true
+sortable: true
+filterable: true
+options:
+  - label: 日常保养
+    value: daily
+  - label: 定期检修
+    value: periodic
+  - label: 故障维修
+    value: repair
+  - label: 大修
+    value: overhaul

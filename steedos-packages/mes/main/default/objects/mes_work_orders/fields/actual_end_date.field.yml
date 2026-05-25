@@ -1,0 +1,4 @@
+name: actual_end_date
+type: datetime
+label: 实际结束时间
+readonly: true

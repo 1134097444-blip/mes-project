@@ -1,0 +1,11 @@
+name: mes_nonconformance
+label: 不合格处理
+icon: block_visitor
+description: 不合格品评审与处置记录，从缺陷发现到整改闭环
+enable_search: true
+enable_chatter: true
+enable_audit: true
+enable_files: true
+enable_api: true
+enable_trash: true
+enable_enhanced_lookup: true

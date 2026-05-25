@@ -1,0 +1,8 @@
+name: object_mes_maintenance_records
+type: object
+object: mes_maintenance_records
+label: 维保记录
+icon: maintenance_plan
+desktop: true
+mobile: true
+permissions: []

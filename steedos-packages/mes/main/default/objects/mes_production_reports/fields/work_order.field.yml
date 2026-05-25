@@ -1,0 +1,7 @@
+name: work_order
+type: master_detail
+label: 所属工单
+reference_to: mes_work_orders
+required: true
+filterable: true
+sortable: true

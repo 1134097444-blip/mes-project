@@ -1,0 +1,18 @@
+name: all
+label: 全部任务
+columns:
+  - field: task_number
+  - field: name
+  - field: work_order
+  - field: operation
+  - field: worker
+  - field: workshop
+  - field: status
+  - field: planned_qty
+  - field: completed_qty
+  - field: start_time
+  - field: end_time
+filter_scope: space
+sort:
+  - field: created
+    order: desc

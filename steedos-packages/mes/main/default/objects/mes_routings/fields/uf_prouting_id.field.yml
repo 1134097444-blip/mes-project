@@ -1,0 +1,5 @@
+name: uf_prouting_id
+type: text
+label: 用友工艺路线ID
+readonly: true
+hidden: true

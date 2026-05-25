@@ -1,0 +1,8 @@
+name: workshop_code
+type: text
+label: 车间编码
+required: true
+is_name: true
+sortable: true
+filterable: true
+searchable: true

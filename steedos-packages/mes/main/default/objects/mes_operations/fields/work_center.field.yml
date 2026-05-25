@@ -1,0 +1,5 @@
+name: work_center
+type: lookup
+label: 工作中心
+reference_to: mes_work_centers
+filterable: true

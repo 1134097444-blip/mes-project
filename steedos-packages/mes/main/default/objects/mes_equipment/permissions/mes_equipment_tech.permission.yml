@@ -1,0 +1,16 @@
+name: mes_equipment.mes_equipment_tech
+permission_set_id: mes_equipment_tech
+allowCreate: true
+allowRead: true
+allowEdit: true
+allowDelete: true
+allowExport: true
+viewAllRecords: true
+modifyAllRecords: true
+allowReadFiles: true
+allowCreateFiles: true
+allowEditFiles: true
+allowDeleteFiles: true
+viewAllFiles: true
+modifyAllFiles: true
+field_permissions: []

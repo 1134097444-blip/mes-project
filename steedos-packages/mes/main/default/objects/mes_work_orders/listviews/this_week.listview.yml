@@ -1,0 +1,20 @@
+name: this_week
+label: 本周计划
+is_enable: true
+shared: true
+filter_scope: space
+columns:
+  - field: order_number
+  - field: name
+  - field: status
+  - field: priority
+  - field: planned_qty
+  - field: completed_qty
+  - field: planned_start_date
+  - field: assignee
+sort:
+  - field_name: planned_start_date
+    order: asc
+filters:
+  - ["planned_start_date", ">=", "{this_week}"]
+  - ["status", "notin", ["completed", "cancelled"]]

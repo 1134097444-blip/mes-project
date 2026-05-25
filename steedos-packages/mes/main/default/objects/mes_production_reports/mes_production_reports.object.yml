@@ -1,0 +1,11 @@
+name: mes_production_reports
+label: 报工记录
+icon: feedback
+description: 工序报工、工时记录和完工数量登记
+enable_search: true
+enable_chatter: true
+enable_audit: true
+enable_files: true
+enable_api: true
+enable_trash: true
+enable_enhanced_lookup: true

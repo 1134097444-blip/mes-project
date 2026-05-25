@@ -1,0 +1,107 @@
+{
+  "type": "page",
+  "title": "车间工单看板",
+  "body": [
+    {
+      "type": "grid",
+      "columns": [
+        {
+          "lg": 3,
+          "md": 6,
+          "body": [
+            {
+              "type": "service",
+              "api": "/api/v6/data/mes_work_orders?skip=0&top=0&filters=[%22status%22,%22=%22,%22pending%22]",
+              "body": {
+                "type": "panel",
+                "className": "text-center",
+                "body": [
+                  { "type": "tpl", "tpl": "<div class=\"h3 text-muted\">待下达</div>" },
+                  { "type": "tpl", "tpl": "<div class=\"h1 text-warning\">${items.length | default: 0}</div>" }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "lg": 3,
+          "md": 6,
+          "body": [
+            {
+              "type": "service",
+              "api": "/api/v6/data/mes_work_orders?skip=0&top=0&filters=[%22status%22,%22=%22,%22released%22]",
+              "body": {
+                "type": "panel",
+                "className": "text-center",
+                "body": [
+                  { "type": "tpl", "tpl": "<div class=\"h3 text-muted\">已下达</div>" },
+                  { "type": "tpl", "tpl": "<div class=\"h1 text-info\">${items.length | default: 0}</div>" }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "lg": 3,
+          "md": 6,
+          "body": [
+            {
+              "type": "service",
+              "api": "/api/v6/data/mes_work_orders?skip=0&top=0&filters=[%22status%22,%22=%22,%22in_progress%22]",
+              "body": {
+                "type": "panel",
+                "className": "text-center",
+                "body": [
+                  { "type": "tpl", "tpl": "<div class=\"h3 text-muted\">执行中</div>" },
+                  { "type": "tpl", "tpl": "<div class=\"h1 text-primary\">${items.length | default: 0}</div>" }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "lg": 3,
+          "md": 6,
+          "body": [
+            {
+              "type": "service",
+              "api": "/api/v6/data/mes_work_orders?skip=0&top=0&filters=[%22status%22,%22=%22,%22completed%22]",
+              "body": {
+                "type": "panel",
+                "className": "text-center",
+                "body": [
+                  { "type": "tpl", "tpl": "<div class=\"h3 text-muted\">已完成</div>" },
+                  { "type": "tpl", "tpl": "<div class=\"h1 text-success\">${items.length | default: 0}</div>" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "grid",
+      "columns": [
+        {
+          "lg": 12,
+          "body": [
+            {
+              "type": "panel",
+              "title": "待处理工单",
+              "body": {
+                "type": "steedos-object-listview",
+                "objectApiName": "mes_work_orders",
+                "listName": "my_pending",
+                "showFilterToolbar": true,
+                "showExportExcel": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+name: purchase_date
+type: date
+label: 购入日期
+sortable: true

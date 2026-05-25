@@ -1,0 +1,11 @@
+name: mes_equipment_faults
+label: 故障报修
+icon: problem
+description: 设备故障申报与处理记录，从报修到修复的全流程跟踪
+enable_search: true
+enable_chatter: true
+enable_audit: true
+enable_files: true
+enable_api: true
+enable_trash: true
+enable_enhanced_lookup: true

@@ -1,0 +1,27 @@
+name: all
+label: 所有不合格处理
+is_enable: true
+shared: true
+shared_to: space
+filter_scope: space
+columns:
+  - field: nc_number
+  - field: defect
+  - field: work_order
+  - field: disposition
+  - field: status
+  - field: handler
+  - field: handling_date
+  - field: owner
+  - field: created
+sort:
+  - field_name: created
+    order: desc
+searchable_fields:
+  - field: nc_number
+  - field: name
+mobile_columns:
+  - field: nc_number
+  - field: disposition
+  - field: status
+  - field: handler

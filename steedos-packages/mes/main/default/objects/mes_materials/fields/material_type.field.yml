@@ -1,0 +1,18 @@
+name: material_type
+type: select
+label: 物料类别
+required: true
+sortable: true
+filterable: true
+options:
+  - label: 原材料
+    value: raw_material
+  - label: 半成品
+    value: semi_finished
+  - label: 成品
+    value: finished
+  - label: 辅料
+    value: accessory
+  - label: 备件
+    value: spare_part
+defaultValue: raw_material

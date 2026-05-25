@@ -1,0 +1,5 @@
+name: mes_process_flow
+label: 业务流程导航
+type: app
+render_engine: amis
+is_active: true
